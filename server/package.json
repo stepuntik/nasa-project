@@ -18,7 +18,7 @@
     "nodemon": "^3.0.2"
   },
   "scripts": {
-    "test": "jest --detectOpenHandles --watch",
+    "test": "jest --detectOpenHandles",
     "start": "nodemon src/server.js",
     "cluster": "pm2 start src/server.js -i max"
   },
